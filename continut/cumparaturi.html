@@ -1,0 +1,86 @@
+<p>Cumpară bilete acum:</p>
+<table id="tabel">
+    <tr>
+       <th>No.</th>
+       <th>Location</th>
+       <th>Data</th>
+       <th>Tribuna</th>
+       <th>Preț</th>
+    </tr>
+    <tr>
+       <td>01</td>
+       <td>BAHRAIN</td>
+       <td>03 MAR 2023 - 05 MAR 2023</td>
+       <td>Tribuna Principală</td>
+       <td>325$</td>
+       <td><a onclick="apasaCumpara('Bilet1 - BAHRAIN - Tribuna Principală','325')">Cumpară</a></td>
+    </tr>
+    <tr>
+       <td>02</td>
+       <td>BAHRAIN</td>
+       <td>03 MAR 2023 - 05 MAR 2023</td>
+       <td>Tribuna - Viraj 1</td>
+       <td>300$</td>
+       <td><a onclick="apasaCumpara('Bilet2 - BAHRAIN - Tribuna - Viraj 1','300')">Cumpară</a></td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>BAHRAIN</td>
+        <td>03 MAR 2023 - 05 MAR 2023</td>
+        <td>Tribuna - Viraj 4</td>
+        <td>280$</td>
+        <td><a onclick="apasaCumpara('Bilet3 -BAHRAIN - Tribuna - Viraj 4','280')">Cumpară</a></td>
+     </tr>
+     <tr>
+        <td>04</td>
+        <td>BAHRAIN</td>
+        <td>03 MAR 2023 - 05 MAR 2023</td>
+        <td>Tribuna - Viraj 8</td>
+        <td>250$</td>
+        <td><a onclick="apasaCumpara('Bilet4 - BAHRAIN - Tribuna - Viraj 8','250')">Cumpară</a></td>
+     </tr>
+     <tr>
+        <td>05</td>
+        <td>BAHRAIN</td>
+        <td>03 MAR 2023 - 05 MAR 2023</td>
+        <td>Tribuna - Viraj 11</td>
+        <td>270$</td>
+        <td><a onclick="apasaCumpara('Bilet5 - BAHRAIN - Tribuna - Viraj 11','270')">Cumpară</a></td>
+     </tr>
+     <tr>
+        <td>06</td>
+        <td>BAHRAIN</td>
+        <td>03 MAR 2023 - 05 MAR 2023</td>
+        <td>Tribuna - Viraj 14</td>
+        <td>240$</td>
+        <td><a onclick="apasaCumpara('Bilet6','240')">Cumpară</a></td>
+     </tr>
+</table>
+
+<form>
+    <label for="numeProdus">Tip Bilet</label>
+    <input type="text" id="numeProdus"/>
+    <br><br>
+    <label for="pretProdus">Preț</label>
+    <input type="text" id="pretProdus"/>
+    <br><br>
+    <label for="cantitateProdus">Cantitate</label>
+    <input type="text" id="cantitateProdus"/>
+    <br><br>
+    <button onclick="adaugaProdus()" type="button">Cumpară!</button>
+    <input type="text" id="mesaj"/>
+</form>
+
+<h3>Acordă o notă experienței tale pe acest site!</h3>
+<div class="flex-container">
+   <div><button onclick="acordaNota()" type="button">1</button></div>
+   <div><button onclick="acordaNota()" type="button">2</button></div>
+   <div><button onclick="acordaNota()" type="button">3</button></div>
+   <div><button onclick="acordaNota()" type="button">4</button></div>
+   <div><button onclick="acordaNota()" type="button">5</button></div>
+   <div><button onclick="acordaNota()" type="button">6</button></div>
+   <div><button onclick="acordaNota()" type="button">7</button></div>
+   <div><button onclick="acordaNota()" type="button">8</button></div>
+   <div><button onclick="acordaNota()" type="button">9</button></div>
+   <div><button onclick="acordaNota()" type="button">10</button></div>
+ </div>

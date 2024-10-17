@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persoane [
+    <!ELEMENT persoane (persoana+)>
+    <!ELEMENT persoana (nume,prenume,varsta,sex,CV,adresa)>
+    <!ATTLIST persoana id CDATA #REQUIRED>
+    <!ELEMENT nume (#PCDATA)>
+    <!ELEMENT prenume (#PCDATA)>
+    <!ELEMENT varsta (#PCDATA)>
+    <!ELEMENT sex (#PCDATA)>
+    <!ELEMENT CV (studii,limba1?,limba2?,limba3?)>
+    <!ELEMENT studii (facultate?,master?)>
+    <!ELEMENT facultate (#PCDATA)>
+    <!ELEMENT master (#PCDATA)>
+    <!ELEMENT limba1 (#PCDATA)>
+    <!ELEMENT limba2 (#PCDATA)>
+    <!ELEMENT adresa (strada,numar,codPostal,localitate,judet,tara)>
+    <!ELEMENT strada (#PCDATA)>
+    <!ELEMENT numar (#PCDATA)>
+    <!ELEMENT codPostal (#PCDATA)>
+    <!ELEMENT localitate (#PCDATA)>
+    <!ELEMENT judet (#PCDATA)>
+    <!ELEMENT tara (#PCDATA)>
+]>
+
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <sex>M</sex>
+        <CV>
+            <studii>
+                <facultate>Mecanică</facultate>
+            </studii>
+            <limba1>Romană</limba1>
+            <limba2>Engleză</limba2>
+        </CV>
+        <adresa>
+            <strada>Armoniei</strada>
+            <numar>38</numar>
+            <codPostal>605002</codPostal>
+            <localitate>Onești</localitate>
+            <judet>Bacău</judet>
+            <tara>România</tara>
+        </adresa>
+    </persoana>
+    <persoana id="2">
+        <nume>Lovinescu</nume>
+        <prenume>Ioana</prenume>
+        <varsta>26</varsta>
+        <sex>F</sex>
+        <CV>
+            <studii>
+                <facultate>Medicină</facultate>
+                <master>Ortopedie</master>
+            </studii>
+            <limba1>Romană</limba1>
+            <limba2>Franceză</limba2>
+        </CV>
+        <adresa>
+            <strada>Doinei</strada>
+            <numar>11</numar>
+            <codPostal>702233</codPostal>
+            <localitate>Iași</localitate>
+            <judet>Iași</judet>
+            <tara>România</tara>
+        </adresa>
+    </persoana>
+    <persoana id="3">
+        <nume>Marinescu</nume>
+        <prenume>Denisa</prenume>
+        <varsta>27</varsta>
+        <sex>F</sex>
+        <CV>
+            <studii>
+                <facultate>Chimie</facultate>
+                <master>Chimie</master>
+            </studii>
+            <limba1>Romană</limba1>
+            <limba2>Engleză</limba2>
+        </CV>
+        <adresa>
+            <strada>Zimbrului</strada>
+            <numar>1</numar>
+            <codPostal>700604</codPostal>
+            <localitate>Iași</localitate>
+            <judet>Iași</judet>
+            <tara>România</tara>
+        </adresa>
+    </persoana>
+    <persoana id="4">
+        <nume>Grigorescu</nume>
+        <prenume>Dan</prenume>
+        <varsta>57</varsta>
+        <sex>M</sex>
+        <CV>
+            <studii>
+                <facultate>Geografie</facultate>
+                <master>Seismologie</master>
+            </studii>
+            <limba1>Romană</limba1>
+            <limba2>Franceză</limba2>
+        </CV>
+        <adresa>
+            <strada>Chimistului</strada>
+            <numar>14</numar>
+            <codPostal>701324</codPostal>
+            <localitate>Adjud</localitate>
+            <judet>Vrancea</judet>
+            <tara>România</tara>
+        </adresa>
+    </persoana>
+    <persoana id="4">
+        <nume>Negrescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>35</varsta>
+        <sex>M</sex>
+        <CV>
+            <studii>
+                <facultate>Psihologie</facultate>
+                <master>Psihologie</master>
+            </studii>
+            <limba1>Romană</limba1>
+            <limba2>Italiană</limba2>
+        </CV>
+        <adresa>
+            <strada>Progresului</strada>
+            <numar>78</numar>
+            <codPostal>709548</codPostal>
+            <localitate>Călărași</localitate>
+            <judet>Călărași</judet>
+            <tara>România</tara>
+        </adresa>
+    </persoana>
+</persoane>

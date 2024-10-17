@@ -1,0 +1,220 @@
+p {
+    text-indent: 50px;
+}
+
+h1 {
+    /* centrare */
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
+    color: black;
+    font-size: 60px;;
+    font-family: sans-serif;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a{
+    font-style: italic;
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color:rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(171, 164, 164);
+    cursor: pointer;
+}
+
+img{
+    border-radius: 25px;
+    /* centrare imagine */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav {
+    /* centrare */
+    font-family: sans-serif;
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    float: center;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 26px;
+    color: white;
+
+    text-align: center;
+    word-spacing: 10px;
+}
+
+body {
+    background-image: url("../imagini/background.jpg") ;
+    background-color: #cccccc;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+main{
+    /* centrare */
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+input[type=text], select {
+    font-family: sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+}
+
+input[type=submit] {
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px; 
+}
+
+input[type=submit]:hover {
+    background-color: #af0000;
+    margin-bottom: 20px; 
+}
+
+svg{
+    /* centrare */
+    font-family: sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+form {
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+
+iframe {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+footer{
+    /* centrare */
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    background: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+canvas{
+    border:5px solid red; 
+    background-color: white;
+}
+
+#tabel {
+    font-family: sans-serif;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#tabel td, #tabel th {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+  
+#tabel tr:hover {background-color: grey;}
+  
+#tabel th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #af0000;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+  
+.flex-container > div {
+    background-color: #af0000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
